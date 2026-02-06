@@ -6,7 +6,10 @@ An end-to-end R project analyzing how student participation in homework, compuls
 As a Master’s student, I developed this project to investigate how continuous assessment and various student activities impact final module grades. By exploring a dataset of 159 students, I applied both supervised and unsupervised machine learning techniques to identify behavioral patterns and predict academic success.
 
 ## 💡 Key Insights ##
-The "Success" Factor: Participation in optional activities is a powerful predictor; 97% of students who completed at least half of the optional activities passed the course.Consistency Matters: Out of the students who completed all optional and compulsory activities, 76% succeeded in the final exams.Attendance Gaps: 44 students did not participate in either the primary or repeated exam sessions.Activity Influence: Homework assignments showed a moderate correlation with exam grades (up to 0.30), while compulsory activities had less individual impact on repeated exam results.
+- **The "Success" Factor:** Participation in optional activities is a powerful predictor; 97% of students who completed at least half of the optional activities passed the course.
+- **Consistency Matters:** Out of the students who completed all optional and compulsory activities, 76% succeeded in the final exams.
+- **Attendance Gaps:** 44 students did not participate in either the primary or repeated exam sessions.
+- **Activity Influence:** Homework assignments showed a moderate correlation with exam grades (up to 0.30), while compulsory activities had less individual impact on repeated exam results.
 
 ## 🛠️ Technical Workflow1 ##
 # Data Preparation & CleaningFormatting: #
