@@ -14,9 +14,9 @@ As a Master’s student, I developed this project to investigate how continuous 
 ## 🛠️ Technical Workflow1 ##
 # Data Preparation & Cleaning Formatting: #
 Renamed columns for readability and removed unnecessary structural rows/columns.Preprocessing: Handled missing values represented by "-1" or "-" by converting them to NA and performing column-wise mean imputation.
-# Feature Engineering:#
+# Feature Engineering: #
 Created binary indicators for full and partial participation (binary.1 and binary.2) and calculated mean scores for homework, compulsory, and optional tasks.
-# Exploratory Data Analysis (EDA)#
+# Exploratory Data Analysis (EDA) #
 - **Correlation Analysis:** Developed a heatmap to visualize relationships between all activities and exam scores.
 - **Visualizations:** Created histograms and scatter plots using ggplot2 to identify grade distributions and correlations between homework and exams.
 - **Machine Learning ModelsKNN Classification:** Achieved 83.3% accuracy in predicting pass/fail status using an optimized k=4
