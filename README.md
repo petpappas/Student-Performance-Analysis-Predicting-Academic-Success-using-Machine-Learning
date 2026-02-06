@@ -12,7 +12,7 @@ As a Master’s student, I developed this project to investigate how continuous 
 - **Activity Influence:** Homework assignments showed a moderate correlation with exam grades (up to 0.30), while compulsory activities had less individual impact on repeated exam results.
 
 ## 🛠️ Technical Workflow1 ##
-# Data Preparation & CleaningFormatting: #
+# Data Preparation & Cleaning Formatting: #
 Renamed columns for readability and removed unnecessary structural rows/columns.Preprocessing: Handled missing values represented by "-1" or "-" by converting them to NA and performing column-wise mean imputation.
 # Feature Engineering:#
 Created binary indicators for full and partial participation (binary.1 and binary.2) and calculated mean scores for homework, compulsory, and optional tasks.
@@ -25,4 +25,7 @@ Created binary indicators for full and partial participation (binary.1 and binar
 - **K-Means Clustering:** Grouped students into 7 distinct clusters to separate top performers, at-risk students, and those who only succeeded in repeated exams.
 
 ## 📂 Project Structurescripts ##
-Contains the full R analysis script (PAPPAS-Student.Progress.R).output/: High-resolution plots including the Correlation Heatmap and K-Means Clusters.Student_Grades_Project_Report.docx: Full academic report detailing the methodology and conclusions.📊 Tools & LibrariesLanguage: R Data Manipulation: dplyr, tidyverse Visualization: ggplot2, pheatmap Modeling: class (KNN), stats (Linear/Logistic Regression), rpart (Decision Trees) 
+Contains the full R analysis script (PAPPAS-Student.Progress.R).
+- **output:** High-resolution plots including the Correlation Heatmap and K-Means Clusters.
+- **Student_Grades_Project_Report.docx:** Full academic report detailing the methodology and conclusions.
+- **📊 Tools & LibrariesLanguage:** R Data Manipulation: dplyr, tidyverse Visualization: ggplot2, pheatmap Modeling: class (KNN), stats (Linear/Logistic Regression), rpart (Decision Trees) 
