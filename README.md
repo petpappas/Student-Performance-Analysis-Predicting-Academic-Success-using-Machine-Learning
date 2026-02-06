@@ -16,10 +16,10 @@ Created binary indicators for full and partial participation (binary.1 and binar
 # Exploratory Data Analysis (EDA)#
 - **Correlation Analysis:** Developed a heatmap to visualize relationships between all activities and exam scores.
 - **Visualizations:** Created histograms and scatter plots using ggplot2 to identify grade distributions and correlations between homework and exams.
--**Machine Learning ModelsKNN Classification:** Achieved 83.3% accuracy in predicting pass/fail status using an optimized k=4
--**Logistic Regression:** Reached up to 93% predictive accuracy for passing students.
--**Linear Regression:** Identified Homework Assignments 2 and 4 as significant predictors, though the overall variance explained was low (R^2 ~=22%).
--**K-Means Clustering:** Grouped students into 7 distinct clusters to separate top performers, at-risk students, and those who only succeeded in repeated exams.
+- **Machine Learning ModelsKNN Classification:** Achieved 83.3% accuracy in predicting pass/fail status using an optimized k=4
+- **Logistic Regression:** Reached up to 93% predictive accuracy for passing students.
+- **Linear Regression:** Identified Homework Assignments 2 and 4 as significant predictors, though the overall variance explained was low (R^2 ~=22%).
+- **K-Means Clustering:** Grouped students into 7 distinct clusters to separate top performers, at-risk students, and those who only succeeded in repeated exams.
 
 ## 📂 Project Structurescripts ##
 Contains the full R analysis script (PAPPAS-Student.Progress.R).output/: High-resolution plots including the Correlation Heatmap and K-Means Clusters.Student_Grades_Project_Report.docx: Full academic report detailing the methodology and conclusions.📊 Tools & LibrariesLanguage: R Data Manipulation: dplyr, tidyverse Visualization: ggplot2, pheatmap Modeling: class (KNN), stats (Linear/Logistic Regression), rpart (Decision Trees) 
